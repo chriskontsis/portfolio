@@ -90,7 +90,7 @@ p {
 .port-pic-img {
     width: 300px;
     height: 285px;
-    border-radius: 70px;
+    border-radius: 150px;
     box-shadow: 10px 10px 8px #888888;
     
 }
@@ -187,3 +187,24 @@ nav {
 .project-desc-para {
     margin: 16px 0;
 }
+@media only screen and (max-width:700px) {
+    .header{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .port-pic-container {
+        flex-basis: 100%;
+       padding-top: 100px;
+       margin-bottom: 50px;
+    }
+    .row {
+        margin-top: 200px;
+    }
+    .port-pic-container{
+        width: 75%;
+        padding-bottom: 25px;
+    }
+    .title {
+        line-height: .86;
+    }
+  }
