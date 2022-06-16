@@ -35,13 +35,7 @@ p {
     background-color: #ffffff;
     background-image: linear-gradient(135deg, #ffffff 50%, #d7e1ec);
 }
-.hidden {
-    display: none;
-    font-size: 120px;
-    margin-bottom: 12px;
-    text-align: left;
-    line-height: 1;
-}
+
 .header {
     width: 100%;
     max-width: 1200px;
@@ -195,33 +189,27 @@ nav {
     margin: 16px 0;
 }
 @media only screen and (max-width:1024px) {
+    #landing-page {
+        width: 100%;
+    }
     .header-box {
         position: relative;
-        flex-direction: column-reverse; 
+        flex-direction: column-reverse;
         align-items:center;
     }
     .port-pic-container {
         padding-bottom: 32px;
         margin: 0;
-    }   
+    }
     .header {
         margin: 0;
         padding: 0;
     }
     .header-content {
-        margin: 0 16px;
-       text-align: left;
+        margin: 15px;
     }
     .title {
-        font-size: 92px;
+        font-size: 72px;
         line-height: .86;
-        display: none;
-    }
-    .hidden {
-        display: contents;
-    }
-    .header-para {
-        text-align: left;
-        max-width: 800px;
     }
   }
