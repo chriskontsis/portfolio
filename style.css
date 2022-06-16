@@ -35,7 +35,13 @@ p {
     background-color: #ffffff;
     background-image: linear-gradient(135deg, #ffffff 50%, #d7e1ec);
 }
-
+.hidden {
+    display: none;
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
 .header {
     width: 100%;
     max-width: 1200px;
@@ -191,21 +197,31 @@ nav {
 @media only screen and (max-width:1024px) {
     .header-box {
         position: relative;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; 
         align-items:center;
     }
     .port-pic-container {
         padding-bottom: 32px;
-    }
+        margin: 0;
+    }   
     .header {
         margin: 0;
         padding: 0;
     }
     .header-content {
-        margin: 15px;
+        margin: 0 16px;
+       text-align: left;
     }
     .title {
-        font-size: 100px;
+        font-size: 92px;
         line-height: .86;
+        display: none;
+    }
+    .hidden {
+        display: contents;
+    }
+    .header-para {
+        text-align: left;
+        max-width: 800px;
     }
   }
