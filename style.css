@@ -137,6 +137,9 @@ nav {
 .project-img {
     width: 100%;
 }
+.project {
+    margin-bottom: 48px;
+}
 .project-wrapper {
     position: relative;
     border-radius: 20px;
