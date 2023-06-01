@@ -42,7 +42,7 @@ p {
 
 .header {
     width: 100%;
-    max-width: 3840px;
+    max-width: 4096px;
     padding: 0 30px;
     margin-top: 100px;
 }
@@ -56,7 +56,6 @@ p {
 }
 .header-content {
     position: relative;
-    margin-left: 100px;
 }
 .row {
     width: 100%;
