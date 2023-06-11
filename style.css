@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&family=Lora&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -62,8 +63,10 @@ h3 {
 }
 .header-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+.right-side {
 }
 .container {
     padding: 50px 0;
@@ -76,13 +79,21 @@ h3 {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 12px;
+    
 }
 .title {
     color: #86C232;
-    font-size: 120px;
+    font-size: 150px;
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
+    letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #86C232,
+						20px 20px #000000;
 }
 .header-para {
     font-size: 24px;
