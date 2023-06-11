@@ -238,23 +238,18 @@ nav {
     }
     .header-box {
         position: relative;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items:center;
-    }
-    .port-pic-container {
-        padding-bottom: 32px;
-        margin: 0;
-    }
-
+    }   
     .header {
-        margin: 0;
-        padding: 0;
+        margin: none;
+        padding: none;
     }
     .header-content {
         margin: 15px;
     }
     .title {
-        font-size: 72px;
+        font-size: 100px;
         line-height: .86;
     }
   }
