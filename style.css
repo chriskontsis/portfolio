@@ -18,7 +18,10 @@ a{
     text-decoration: none;
 }
 ul {
-    list-style-type: none;
+    list-style-type: disc
+}
+ol {
+    list-style-type: none
 }
 p {
     line-height: 1.5;
