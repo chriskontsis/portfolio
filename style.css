@@ -217,26 +217,36 @@ nav {
     font-size: 48px;
     margin-bottom: 72px;
     letter-spacing: 0.1em;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #FFFFFF;
-    text-shadow: 
-        5px 5px 0 #000000;
     position: relative;
     z-index: 1;
+    background: linear-gradient(45deg, #ff9966, #ff5e62, #ffa500);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
+    text-shadow: 
+        3px 3px 0 rgba(0, 0, 0, 0.2),
+        6px 6px 0 rgba(255, 94, 98, 0.1);
+    transition: all 0.3s ease;
 }
 
-.section-title::after {
+.section-title::before {
     content: attr(data-text);
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
-    -webkit-text-stroke-width: 8px;
-    -webkit-text-stroke-color: rgba(255, 89, 100, 0.3);
-    text-shadow: none;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: rgba(255, 153, 102, 0.1);
+    -webkit-text-fill-color: transparent;
+}
+
+.section-title:hover {
+    transform: translateY(-5px);
+    text-shadow: 
+        4px 4px 0 rgba(0, 0, 0, 0.3),
+        8px 8px 0 rgba(255, 94, 98, 0.2);
 }
 .project-img {
     object-fit:fill;
