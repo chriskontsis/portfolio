@@ -176,11 +176,35 @@ nav {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #86C232;
-    text-shadow: 
-                            5px 5px #000000;
+    -webkit-text-stroke-color: rgba(255, 153, 102, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.nav-link-anchor::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    transition: width 0.3s ease;
+}
+
+.nav-link-anchor:hover {
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: 2px 2px 4px rgba(255, 94, 98, 0.3);
+}
+
+.nav-link-anchor:hover::after {
+    width: 100%;
 }
 
 /* Projects */
