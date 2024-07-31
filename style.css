@@ -328,32 +328,48 @@ nav {
 }
 
 #work-history {
-  background-color: #212123;
-  height: 100%;
+    background-color: #212123;
+    height: 100%;
 }
+
 .work-section {
-  width: 100%;
-  max-width: 4096px;
-  margin-top: 100px;
+    width: 100%;
+    max-width: 4096px;
+    margin-top: 100px;
 }
 
 .work-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .work-points {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.top h2, .top h4 {
+    margin: 0;
+}
+
+
+ul.work {
+    list-style-type: none;
+    padding: 0;
+}
+
+.work-points li {
+    margin-bottom: 10px;
+}
+
 
 /* Carousel Project */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap");
