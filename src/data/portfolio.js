@@ -25,10 +25,18 @@ export const portfolioData = {
 `,
   name: "Chris Kontsis",
   title: "Software Engineer",
-  bio: "I am a full-time Computer Science student driven to create impactful software solutions.",
+  bio: "Lives for hard problems and engineering the systems that solve them.",
   linkedin: "https://linkedin.com/in/ckontsis/",
   github: "https://github.com/chriskontsis/",
   work: [
+    {
+      company: "Amazon",
+      role: "Software Development Engineer I",
+      period: "June 2025 -- October 2025",
+      highlights: [
+        `Built and maintained a catalog-as-a-service platform that other Amazon teams relied on to store, manage, and discover items at scale.`,
+      ],
+    },
     {
       company: "Capital One",
       role: "Software Engineer Intern",
@@ -61,9 +69,9 @@ export const portfolioData = {
     {
       name: "Lite-Exchange",
       github: "https://github.com/chriskontsis/Lite-Exchange",
-      tech: ["C++", "Boost", "CMake", "FIX"],
-      description: `Developing a multi-threaded, FIX-based, client-server system in C++ for transmitting and processing 
-      diverse order types (limit, market, cancel) through an order matching engine`,
+      tech: ["C++", "Boost", "CMake", "FIX", "GTest"],
+      description: ` Building a multithreaded client-server order matching engine in C++ that matches limit and cancel orders
+                    using a price-time priority book`,
     },
     {
       name: "AI Tunes",
@@ -79,13 +87,6 @@ export const portfolioData = {
       ],
       description:
         "Engineered a content-based music recommendation system delivering personalized song suggestions with Spotify links",
-    },
-    {
-      name: "412 Media",
-      github: "https://github.com/chriskontsis/412Media",
-      tech: ["React", "Express", "Node.js", "PostgreSQL"],
-      description: `Led a 3 person team to build an Instagram-like social platform, 
-      implementing functionalities such as photo sharing, following, and liking/commenting`,
     },
   ],
   blog: [
